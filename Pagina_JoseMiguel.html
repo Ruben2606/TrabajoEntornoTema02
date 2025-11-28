@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUEVEDO || BZRP Music Sessions #52/66</title>
+    <style>
+        body#multicolor {
+            background-color: #FF2C2C;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            animation: mymove 4s infinite alternate-reverse;
+        }
+
+        @keyframes mymove {
+            0% {background-color: rgb(0, 174, 255);}
+            25% {background-color: rgb(142, 187, 255);}
+            50% {background-color: rgb(75, 213, 255);}
+            75% {background-color: rgb(119, 155, 255);}
+            100% {background-color: rgb(44, 176, 252);}
+        }
+
+        img {
+            width: 900px;
+            border: solid black 10px;
+            border-color: rgb(0, 60, 255);
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px black;
+            transition: 0.3s;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 0px 25px rgb(0, 38, 151);
+        }
+
+        #Descripcion {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: rgba(255, 255, 255, 0.4);
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;
+            margin: 20px auto;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #000;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: #001f54;
+            text-shadow: 2px 2px 4px white;
+            margin-top: 40px;
+        }
+
+        #letra {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            border: solid black;
+            border-width: 10px;
+            border-radius: 0;
+
+            padding: 10px; 
+            
+            display: inline-block;
+            max-width: 90%; 
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+
+            font-size: 26px; 
+            line-height: 1.8; 
+        }
+
+        #letra:hover {
+            transform: scale(1.01);
+            transition: 0.3s;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #botonIndex {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #001f54;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body id="multicolor">
+
+    <header>
+        <br>
+        <img src="quevedo.webp" alt="Quevedo">
+
+        <h1 id="Descripcion">
+            La Bizarrap Session #52 con Quevedo es una colaboración entre el productor argentino Bizarrap y el cantante español Quevedo, 
+            lanzada en 2022. La canción mezcla reguetón y rap urbano con un estilo muy característico de ambos artistas: ritmo pegajoso, 
+            letras sobre desamor y superación, y la producción innovadora y minimalista de Bizarrap que resalta la voz de Quevedo. 
+            Fue un éxito internacional, destacando en plataformas de streaming y redes sociales, consolidando a Quevedo como una de las nuevas promesas del urbano en español.
+        </h1>
+    </header>
+
+    <h1>Letra:</h1>
+
+    <p id="letra">
+        (Perreamos toda la noche y nos dormimo' a las die')<br><br>
+        Llegué al club con el combo, rápido la vi lejos<br>
+        Se pintaba los labios y la copa como espejo<br>
+        Se acercó, poco a poco, y yo queriendo que me baile<br>
+        Luego me dijo: Vamos, que te enseño Buenos Aire'<br><br>
+
+        Y nos fuimos en una, empezamo' a la una<br>
+        Y con la nota, rápido nos dieron las tres<br>
+        Perreamos toda la noche y nos dormimo' a las die'<br>
+        Ando rezándole a Dios pa' repetirlo otra ve'<br><br>
+
+        Y nos fuimos en una, empezamo' a la una<br>
+        Y con la nota, rápido nos dieron las tre'<br>
+        Perreamos toda la noche y nos dormimo' a las diez<br>
+        Ando rezándole a Dios pa' repetirlo otra ve'<br><br>
+
+        Dime, beba<br>
+        Fecha y hora y te paso a buscar<br>
+        Yo le llego donde los demás, tú sabes que, no le llegan<br>
+        Ruido de botellas de champán de las copas al brindar<br>
+        Pero solo escucho cómo late<br>
+        Mi corazón cuando veo ese cuerpo 'e escaparate<br>
+        El traje combina con la Mercede' Granate<br>
+        No hay otro, por más que ellos traten<br><br>
+
+        Quédate<br>
+        Que las noches, sin ti, duelen<br>
+        Tengo en la mente las pose' y todos los gemido'<br>
+        Que ya no quiero nada que no sea contigo<br><br>
+
+        Quédate<br>
+        Que las noches, sin ti, duelen<br>
+        Tengo en la mente las pose' y todo lo que hicimo'<br>
+        Que ya no quiero nada que no sea contigo<br><br>
+
+        ¡Bizarrap!<br>
+        Quevedo con el Biza, yeah-yeah-yeah<br>
+        LPGC, you know, oh-oh, oh-oh<br>
+    </p>
+
+    <button id="botonIndex" onclick="location.href='index.html'">Volver al Índice</button>
+
+</body>
+</html>
